@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Георгий Огорелков — Game Developer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Ogorelkov<span>.dev</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">Обо мне</a></li>
+        <li><a href="index.html#projects">Проекты</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+      <div class="nav-burger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <canvas class="hero-canvas" id="heroCanvas"></canvas>
+    <div class="hero-gradient"></div>
+    <div class="hero-content">
+      <p class="hero-tag">// game developer & designer</p>
+      <h1 class="hero-title">Георгий<br><span class="highlight">Огорелков</span></h1>
+      <p class="hero-sub">Создаю игры от концепции до релиза. <br> Godot, пиксель-арт, нарративный дизайн.</p>
+      <a href="#projects" class="hero-btn">
+        Смотреть проекты
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+      </a>
+    </div>
+    <div class="hero-scroll">
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <p class="section-tag reveal">// portfolio</p>
+      <h2 class="section-title reveal">Мои проекты</h2>
+      <p class="section-desc reveal">Пять игровых проектов, каждый из которых отражает мой подход к геймдизайну, программированию и визуальному оформлению.</p>
+
+      <div class="projects-grid">
+        <a href="project1.html" class="project-card reveal">
+          <div class="project-card-img"><img src="img/ember-cover.png" alt="Ember The Sable" style="width:100%;height:100%;object-fit:cover;"><div class="overlay"></div></div>
+          <div class="project-card-body">
+            <p class="project-card-genre">Platformer / Roguelite</p>
+            <h3 class="project-card-title">Ember The Sable</h3>
+            <p class="project-card-desc">Sonic-подобный платформер с roguelite-механиками в сеттинге сибирской тайги</p>
+            <p class="project-card-year">2026 · Godot 4</p>
+          </div>
+        </a>
+        <a href="project2.html" class="project-card reveal">
+          <div class="project-card-img"><img src="img/shvody-cover.png" alt="Shvody" style="width:100%;height:100%;object-fit:cover;"><div class="overlay"></div></div>
+          <div class="project-card-body">
+            <p class="project-card-genre">Platformer / Atmospheric</p>
+            <h3 class="project-card-title">Shvody</h3>
+            <p class="project-card-desc">Атмосферный платформер в стилистике Limbo о неком существе, живущем в дождливом мире</p>
+            <p class="project-card-year">2015 · Construct Classic</p>
+          </div>
+        </a>
+        <a href="project3.html" class="project-card reveal">
+          <div class="project-card-img"><img src="img/eyeman-cover.png" alt="The Eyeman 2" style="width:100%;height:100%;object-fit:cover;"><div class="overlay"></div></div>
+          <div class="project-card-body">
+            <p class="project-card-genre">Shoot 'em up</p>
+            <h3 class="project-card-title">The Eyeman 2</h3>
+            <p class="project-card-desc">Shoot 'em up про супергероя, летящего по небу и сражающегося с монстрами</p>
+            <p class="project-card-year">2015 · Construct Classic</p>
+          </div>
+        </a>
+        <a href="project4.html" class="project-card reveal">
+          <div class="project-card-img"><img src="img/vrg-cover.png" alt="VRG" style="width:100%;height:100%;object-fit:cover;"><div class="overlay"></div></div>
+          <div class="project-card-body">
+            <p class="project-card-genre">Quest / Adventure</p>
+            <h3 class="project-card-title">VRG</h3>
+            <p class="project-card-desc">Квест с выбором направлений и несколькими концовками</p>
+            <p class="project-card-year">2015 · Construct 2</p>
+          </div>
+        </a>
+        <a href="project5.html" class="project-card reveal">
+          <div class="project-card-img"><img src="img/1000111-cover.png" alt="1000111 the Game" style="width:100%;height:100%;object-fit:cover;"><div class="overlay"></div></div>
+          <div class="project-card-body">
+            <p class="project-card-genre">Platformer / Experimental</p>
+            <h3 class="project-card-title">1000111 the Game</h3>
+            <p class="project-card-desc">Платформер про двоичный код</p>
+            <p class="project-card-year">2014 · Construct Classic</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-copy">© 2026 Георгий Огорелков. Все права защищены.</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com/DynamiteNonsense/" target="_blank">GitHub</a></li>
+        <li><a href="https://vk.com/dynamitenonsense" target="_blank">VK</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <button class="back-to-top" title="Наверх">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
